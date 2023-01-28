@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Superhero Hunter</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/favicon/7511723_action_avengers_book_comic_marvel_icon.ico"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/superhero.css" />
+    <script
+      src="https://kit.fontawesome.com/e83ab0ff70.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="app">
+      <header id="header">
+        <div id="app-name" class="prevent-select">
+          <span>MARVEL</span><br />
+          <span>Superhero Hunter</span>
+        </div>
+        <div id="search-characters">
+          <form autocomplete="off">
+            <div class="autocomplete">
+              <input
+                type="search"
+                id="search-bar"
+                placeholder="Eg: Spider-man, Avengers ..."
+                name="character"
+              />
+              <div class="search-icon prevent-select">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <!-- <div id="search">Search</div> -->
+            </div>
+          </form>
+        </div>
+      </header>
+      <div id="characters-container">
+        <div id="tabs" class="prevent-select">
+          <div id="character-tab" class="active-tab">CHARACTERS</div>
+          <div id="favourite-tab">FAVOURITES</div>
+        </div>
+        <div id="characters-list">
+          <h1 id="loading">LOADING...</h1>
+        </div>
+      </div>
+
+      <footer id="footer"></footer>
+    </div>
+    <script src="./assets/js/superhero.js"></script>
+  </body>
+</html>

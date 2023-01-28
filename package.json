@@ -1,0 +1,22 @@
+{
+  "name": "superhero-hunter",
+  "version": "1.0.0",
+  "description": "Front-end app that uses marvel API to display marvel characters, favourite them or display details about each character.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMiR-ANiS/superhero-hunter.git"
+  },
+  "author": "Amir Anis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMiR-ANiS/superhero-hunter/issues"
+  },
+  "homepage": "https://github.com/AMiR-ANiS/superhero-hunter#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
